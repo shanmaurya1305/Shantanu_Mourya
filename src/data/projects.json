@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Virtual Hand Cursor",
+        "category": "Python / Computer Vision",
+        "description": "A Python-based application that uses computer vision to control the mouse cursor through hand gestures, enabling touchless interaction.",
+        "image": "/virtual_hand_cursor.png",
+        "githubUrl": "https://github.com/shanmaurya1305/Virtual_Hand_Mouse",
+        "liveUrl": null
+    },
+    {
+        "id": 2,
+        "title": "Recipe Recommendation System",
+        "category": "Web Application",
+        "description": "Elevating user experiences through modern technology and clean interface design.",
+        "image": null,
+        "githubUrl": null,
+        "liveUrl": null
+    },
+    {
+        "id": 3,
+        "title": "Innovative Solution 3",
+        "category": "Web Application",
+        "description": "Elevating user experiences through modern technology and clean interface design.",
+        "image": null,
+        "githubUrl": null,
+        "liveUrl": null
+    },
+    {
+        "id": 4,
+        "title": "Innovative Solution 4",
+        "category": "Web Application",
+        "description": "Elevating user experiences through modern technology and clean interface design.",
+        "image": null,
+        "githubUrl": null,
+        "liveUrl": null
+    }
+]

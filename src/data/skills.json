@@ -1,0 +1,65 @@
+[
+    {
+        "category": "Frontend",
+        "skills": [
+            {
+                "name": "React",
+                "level": "Beginner"
+            },
+            {
+                "name": "JavaScript (ES6+)",
+                "level": "Beginner"
+            },
+            {
+                "name": "Tailwind CSS",
+                "level": "Beginner"
+            },
+            {
+                "name": "HTML5 & CSS3",
+                "level": "Intermediate"
+            }
+        ]
+    },
+    {
+        "category": "Fundamentals",
+        "skills": [
+            {
+                "name": "Python",
+                "level": "Intermediate"
+            },
+            {
+                "name": "C++",
+                "level": "Intermediate"
+            },
+            {
+                "name": "Data Structures",
+                "level": "Beginner"
+            },
+            {
+                "name": "Algorithms",
+                "level": "Beginner"
+            }
+        ]
+    },
+    {
+        "category": "AI & Tools",
+        "skills": [
+            {
+                "name": "Machine Learning",
+                "level": "Beginner"
+            },
+            {
+                "name": "Neural Networks",
+                "level": "Beginner"
+            },
+            {
+                "name": "Git & GitHub",
+                "level": "Beginner"
+            },
+            {
+                "name": "Vite",
+                "level": "Beginner"
+            }
+        ]
+    }
+]

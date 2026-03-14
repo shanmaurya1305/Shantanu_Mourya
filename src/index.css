@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+    /* Dark Professional Palette */
+    --color-midnight: #0a0c10;
+    --color-coral: #f47158;
+    --color-slate-900: #0f172a;
+    --color-slate-400: #94a3b8;
+    --color-white: #ffffff;
+    --color-teal: #14b8a6;
+    --color-sage: #8f9779;
+    --color-muted-orange: #d97706;
+
+    /* Shapes & Transitions */
+    --radius-organic: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    --radius-organic-hover: 40% 60% 70% 30% / 40% 70% 30% 60%;
+
+    --font-heading: "Outfit", "Inter", sans-serif;
+    --font-body: "Inter", sans-serif;
+
+    --animate-blob-float: blob-float 8s infinite ease-in-out;
+    --animate-fade-in: fadeIn 1s ease-out forwards;
+    --animate-slow-float: slow-float 15s infinite ease-in-out;
+
+    @keyframes blob-float {
+
+        0%,
+        100% {
+            border-radius: var(--radius-organic);
+        }
+
+        50% {
+            border-radius: var(--radius-organic-hover);
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slow-float {
+
+        0%,
+        100% {
+            transform: translate(0, 0) scale(1);
+        }
+
+        33% {
+            transform: translate(30px, -40px) scale(1.1);
+        }
+
+        66% {
+            transform: translate(-20px, 20px) scale(0.9);
+        }
+    }
+}
+
+@layer base {
+    body {
+        @apply bg-midnight text-white font-body antialiased leading-relaxed;
+    }
+
+    h1,
+    h2,
+    h3 {
+        @apply font-heading font-bold;
+    }
+
+    ::selection {
+        @apply bg-coral/30 text-white;
+    }
+}
