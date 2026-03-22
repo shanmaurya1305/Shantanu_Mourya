@@ -6,12 +6,12 @@ const Navbar = ({ isScrolled, isMenuOpen, setIsMenuOpen, theme, toggleTheme }) =
             }`}>
             <div className="max-w-7xl mx-auto px-6 md:px-10 flex justify-between items-center">
                 <a href="#home" className="text-2xl font-bold tracking-tight">
-                    <span className="hidden sm:inline">Shantanu Mourya</span>
+                    <span className="hidden sm:inline font-pacifico tracking-wider ">Shantanu Mourya</span>
                     <span className="sm:hidden text-coral uppercase tracking-widest">SM</span>
                 </a>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex gap-10 items-center text-sm font-medium text-slate-600 dark:text-slate-400">
+                <ul className="hidden md:flex gap-10 items-center text-lg font-medium text-slate-600 dark:text-slate-400 font-playfair">
                     <li><a href="#home" className="hover:text-coral dark:hover:text-white transition-colors">Home</a></li>
                     <li><a href="#about" className="hover:text-coral dark:hover:text-white transition-colors">About</a></li>
                     <li><a href="#work" className="hover:text-coral dark:hover:text-white transition-colors">Projects</a></li>

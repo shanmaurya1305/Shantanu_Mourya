@@ -18,22 +18,22 @@ const Hero = () => {
             <div className="max-w-7xl mx-auto px-6 md:px-10 w-full grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-10 items-center">
                 {/* Text Content */}
                 <div className="z-10 animate-fade-in">
-                    <h2 className="text-5xl md:text-7xl font-bold mb-4 flex items-center">
+                    <h2 className="text-5xl md:text-7xl font-bold font-alegreya mb-4 flex items-center">
                         Hello<span className="text-coral">.</span>
                     </h2>
                     <div className="flex items-center gap-4 mb-6">
                         <div className="h-[2px] w-20 bg-coral"></div>
-                        <h3 className="text-4xl md:text-5xl font-medium">I'm Shantanu</h3>
+                        <h3 className="text-4xl md:text-5xl font-medium font-pacifico">I'm Shantanu</h3>
                     </div>
-                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-12">
+                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-alegreya leading-tight mb-12">
                         <Typewriter />
                     </h1>
 
-                    <div className="flex flex-wrap gap-5">
+                    <div className="text-lg flex flex-wrap gap-5 font-playfair">
                         <a href="#contact" className="px-8 py-4 bg-coral text-white font-bold rounded-sm border-2 border-coral hover:bg-transparent hover:text-coral transition-all duration-300">
                             Got a project?
                         </a>
-                        <a href="/resume.pdf" className="px-8 py-4 bg-transparent text-slate-900 dark:text-white font-bold rounded-sm border-2 border-slate-900 dark:border-white hover:border-coral hover:text-coral dark:hover:border-coral dark:hover:text-coral transition-all duration-300">
+                        <a href="/resume.pdf" className="px-8 py-4 bg-transparent text-slate-900 dark:text-white font-bold rounded-sm border-2 border-slate-900 dark:border-white hover:border-coral hover:text-coral dark:hover:border-coral dark:hover:text-coral transition-all duration-300 ">
                             My resume
                         </a>
                     </div>
